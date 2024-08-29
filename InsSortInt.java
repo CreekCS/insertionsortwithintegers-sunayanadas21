@@ -12,7 +12,7 @@ public class InsSortInt {
             arr[i]= scan.nextInt();
         }
         insSort(arr);
-        System.out.println(arr[0]+ " "+ arr[999]);
+        System.out.println("Smallest Int: "+ arr[0]+ " Largest Int: "+ arr[999]);
         scan.close();
         
     }
